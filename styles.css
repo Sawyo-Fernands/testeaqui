@@ -1,0 +1,29 @@
+
+
+.headerComponent{
+    display: flex;
+    padding: 0.5rem 1rem;
+    width: 97%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    min-height: 4vh;
+}
+
+.containerMenuLAteral{
+    position: fixed;
+    left: 0;
+    top: 8vh;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 93%;
+}
+
+.ContainerInputHeader input{
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 0.25rem;
+        padding: 0.4rem;
+        min-width: 240px;
+}

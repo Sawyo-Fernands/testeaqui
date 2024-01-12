@@ -1,36 +1,61 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table Estilizada</title>
+
+    <!-- Link da fonte está na descrição -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" 
+    rel="stylesheet"> 
+
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
-    <header class="headerComponent">
-        <div>
-            LOGO
-        </div>
-        <div class="ContainerInputHeader">
-            <input type="text" placeholder="Buscar Aluno">
-        </div>
-        <div>
-            <span>Dados do Usuario</span>
-        </div>
-    </header>
-    <div class="containerMenuLAteral">
-        <aside>
-            <ul>
-                <li>Um</li>
-                <li>Dois</li>
-                <li>Tres</li>
-            </ul>
-        </aside>
-    </div>
-    <main>
 
-    </main>
+    <div class="container">
+
+        <table>
+            <thead>
+                <th  class="headerTable"></th>
+                <th class="headerTable" >Nome</th>
+                <th class="headerTable">Sobrenome</th>
+                <th class="headerTable">E-mail</th>
+                <th class="headerTable" >Url Imagem</th>
+                <th  class="headerTable">WhatsApp</th>
+                <th  class="headerTable"></th>
+                <th  class="headerTable"></th>
+            </thead>
+
+            <tbody class="bodyTable">
+                <tr class="item">
+                    <td><img src="https://th.bing.com/th/id/OIP.9ldBmuahEAJilytY8SufHQHaHa?rs=1&pid=ImgDetMain" alt="" class="imgTable"></td>
+
+                    <td>Sawyo</td>
+                    <td>Fernands</td>
+                    <td>sawyo@gmail.com</td>
+                    <td>https://testeaqui</td>
+                    <td >(98)98128128934</td>
+                    <td>
+                        <button class="button">
+                            Alterar
+                        </button>
+                    </td>
+                    <td>
+                        <button class="button">
+                            Excluir
+                        </button>
+                    </td>
+                </tr>
+              
+    
+            </tbody>
+        </table>
+
+
+    </div>
+
+
     
 </body>
 </html>
